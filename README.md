@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Sining Xu</h1>
+<h1 align="center">Hi 👋, I'm Daming Wu</h1>
 <h3 align="center">A passionate backend developer from China</h3>
 <img align="right" alt="Coding" width="400" src="https://miro.medium.com/v2/resize:fit:1000/1*ZXQifyIny_o2bFmz1BBz3A.gif")>
 
