@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Daming Wu</h1>
-<h3 align="center">A passionate backend developer from China</h3>
+<h3 align="center">A passionate start-up founder</h3>
 <img align="right" alt="Coding" width="400" src="https://miro.medium.com/v2/resize:fit:1000/1*ZXQifyIny_o2bFmz1BBz3A.gif")>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=siningxu&label=Profile%20views&color=0e75b6&style=flat" alt="siningxu" /> </p>
