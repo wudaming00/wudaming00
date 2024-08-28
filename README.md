@@ -6,17 +6,17 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on **Automotive Website development**
+- 🔭 I’m currently working on **Automotive Marketplace development**
 
-- 👯 I’m looking to collaborate on **DevOps**
+- 👯 I’m looking to collaborate on **Full-stack Engineering**
 
-- 💬 Ask me about **Cloud App Service, CI/CD, Data Pipeline, AI Algrithms**
+- 💬 Ask me about **Cloud App Service, CI/CD, Data Pipeline, AI Algorithms**
 
-- 📫 How to reach me **siningxu@gmail.com**
+- 📫 How to reach me **daming.wu@mycartek.com**
 
 - 📄 Know about my experiences [kerrkeke.com](kerrkeke.com)
 
-- ⚡ Fun fact **I love photography and cook.**
+- ⚡ Fun fact **I love to play with new things.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
