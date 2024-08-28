@@ -14,8 +14,6 @@
 
 - 📫 How to reach me **daming.wu@mycartek.com**
 
-- 📄 Know about my experiences [kerrkeke.com](kerrkeke.com)
-
 - ⚡ Fun fact **I love to play with new things.**
 
 <h3 align="left">Connect with me:</h3>
