@@ -1,30 +1,75 @@
-<h1 align="center">Hi 👋, I'm Daming Wu</h1>
-<h3 align="center">A passionate start-up founder</h3>
-<img align="right" alt="Coding" width="400" src="https://miro.medium.com/v2/resize:fit:1000/1*ZXQifyIny_o2bFmz1BBz3A.gif")>
+<h1 align="center">Daming Wu · 吴大明</h1>
+<p align="center"><b>Founder & full-stack engineer</b><br/>Building AI products with Claude — voice interfaces, video pipelines, and agent infrastructure.</p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=siningxu&label=Profile%20views&color=0e75b6&style=flat" alt="siningxu" /> </p>
-
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
-
-- 🔭 I’m currently working on **Automotive Marketplace development**
-
-- 👯 I’m looking to collaborate on **Full-stack Engineering**
-
-- 💬 Ask me about **Cloud App Service, CI/CD, Data Pipeline, AI Algorithms**
-
-- 📫 How to reach me **daming.wu@mycartek.com**
-
-- ⚡ Fun fact **I love to play with new things.**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
+<p align="center">
+  <a href="mailto:daming.wu@mycartek.com"><img src="https://img.shields.io/badge/email-daming.wu%40mycartek.com-0e75b6?style=flat-square"/></a>
+  <img src="https://komarev.com/ghpvc/?username=wudaming00&label=Profile%20views&color=0e75b6&style=flat-square"/>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://d3js.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=wudaming00&show_icons=true&locale=en&layout=compact" alt="damingwu" /></p>
+### Featured projects
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=wudaming00&show_icons=true&locale=en" alt="damingwu" /></p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=wudaming00&" alt="damingwu" /></p>
+#### <a href="https://github.com/wudaming00/claude-voice">claude-voice</a>
+Push-to-talk voice interface for Claude Code. Hold the button on your phone, speak, hear replies — runs on your Max subscription.
+
+<sub><code>FastAPI</code> · <code>Whisper</code> · <code>edge-tts</code> · <code>PWA</code></sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### <a href="https://github.com/wudaming00/gpubroker">gpubroker</a>
+Lightweight GPU resource broker for multi-project ML workloads on a single host. HTTP API + Python client + MCP server for AI agents.
+
+<sub><code>FastAPI</code> · <code>CUDA</code> · <code>MCP</code></sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### <a href="https://github.com/wudaming00/stay">stay</a>
+Public-good mental health AI — a crisis communication companion, named after the intervention phrase <i>"Stay with me."</i> <a href="https://stay-cartek.vercel.app">Live demo →</a>
+
+<sub><code>Next.js</code> · <code>Claude</code> · <code>TypeScript</code></sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### Also building
+AI-generated wuxia & cdrama short-form video pipelines · YouTube → Chinese-platform auto-dubbing & multi-account upload · real-estate analysis SaaS · fortune-telling AI app.
+
+</td>
+</tr>
+</table>
+
+---
+
+### Tech stack
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white"/>
+</p>
+
+---
+
+### GitHub stats
+
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=wudaming00&show_icons=true&hide_border=true&include_all_commits=true&count_private=true"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=wudaming00&layout=compact&hide_border=true&langs_count=8"/>
+</p>
