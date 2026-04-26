@@ -1,4 +1,4 @@
-<h1 align="center">Daming Wu · 吴大明</h1>
+<h1 align="center">Daming Wu · 吴达明</h1>
 <p align="center"><b>Founder & full-stack engineer</b><br/>Building AI products with Claude — voice interfaces, video pipelines, and agent infrastructure.</p>
 
 <p align="center">
