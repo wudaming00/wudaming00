@@ -31,7 +31,7 @@ Personalized AI-powered home search. Built end-to-end as a solo founder using a 
 
 | Product | What it does | Stack |
 |---|---|---|
-| **[Stay](https://stay-cartek.vercel.app)** | Public-good crisis-communication AI companion. Named after the intervention phrase *"Stay with me."* | Next.js · Claude |
+| **[Stay](https://thestay.app)** | An AI for the moments you can't be alone. Free, private, public-good mental health companion. | Next.js · Claude |
 | **[知几 / Mystic Lens](https://lingxi.onrender.com)** | Consumer AI ritual app. Includes camera-based gesture divination (`/ritual`). | React · FastAPI · Claude |
 | **Wuxia drama generator** | Novel → animated short-drama video pipeline. Local SkyReels-V2 + CosyVoice on a single 5090. | Python · CUDA |
 | **YouTube → Chinese-platform repurposer** | 18-channel matrix with daily auto-pipeline: dub, translate, multi-account upload (08/14/20 + 09 Telegram report). | Python · systemd |
