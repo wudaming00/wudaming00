@@ -1,7 +1,7 @@
 <h1 align="center">Daming Wu · 吴达明</h1>
 <p align="center">
-  <b>Founder · Bilingual AI builder (US-based)</b><br/>
-  Shipping AI products end-to-end — voice, video, agent infra, and consumer apps.
+  <b>Founder, <a href="https://nestlyze.com">Nestlyze</a> — Home Search That Knows You</b><br/>
+  US-based · Bilingual (EN/ZH) · Shipping AI products end-to-end
 </p>
 <p align="center">
   <a href="mailto:daming.wu@mycartek.com">daming.wu@mycartek.com</a>
@@ -9,15 +9,32 @@
 
 ---
 
-### Currently shipping
+### Currently building
 
-| Product | What it does | Stack | Status |
-|---|---|---|---|
-| **[Stay](https://stay-cartek.vercel.app)** | Public-good crisis-communication AI companion. Named after the intervention phrase *"Stay with me."* | Next.js · Claude · TypeScript | Live demo |
-| **[Nestlyze](https://nestlyze.com)** | Real-estate analysis SaaS. Property research and report generation, end-to-end. | React · FastAPI · Claude · Render | Live |
-| **[知几 / Mystic Lens](https://lingxi.onrender.com)** | Consumer AI ritual app. Includes camera-based gesture divination (`/ritual`). | React · FastAPI · Claude | Live |
-| **Wuxia drama generator** | Novel → animated short-drama video pipeline. Local SkyReels-V2 + CosyVoice on a 5090 workstation. | Python · CUDA · SkyReels · CosyVoice | In production |
-| **YouTube → Chinese-platform repurposer** | 18-channel matrix with daily auto-pipeline: dub, translate, upload to Chinese platforms (08/14/20 uploads + 09 Telegram daily report). | Python · systemd · multi-account session mgmt | In production |
+<table>
+<tr>
+<td width="100%" valign="top">
+
+#### <a href="https://nestlyze.com">Nestlyze — Home Search That Knows You</a>
+
+Personalized AI-powered home search. Built end-to-end as a solo founder using a 6-agent Claude Code workflow.
+
+<sub><b>Live:</b> <a href="https://nestlyze.com">nestlyze.com</a> · <b>Stack:</b> React · FastAPI · Claude · Render</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+### Other things I've shipped this year
+
+| Product | What it does | Stack |
+|---|---|---|
+| **[Stay](https://stay-cartek.vercel.app)** | Public-good crisis-communication AI companion. Named after the intervention phrase *"Stay with me."* | Next.js · Claude |
+| **[知几 / Mystic Lens](https://lingxi.onrender.com)** | Consumer AI ritual app. Includes camera-based gesture divination (`/ritual`). | React · FastAPI · Claude |
+| **Wuxia drama generator** | Novel → animated short-drama video pipeline. Local SkyReels-V2 + CosyVoice on a single 5090. | Python · CUDA |
+| **YouTube → Chinese-platform repurposer** | 18-channel matrix with daily auto-pipeline: dub, translate, multi-account upload (08/14/20 + 09 Telegram report). | Python · systemd |
 
 ### Open source
 
@@ -26,11 +43,11 @@
 
 ### How I build
 
-- **Solo / near-solo founder.** Each shipped SaaS is built with **6–8 parallel Claude Code agents** — heavy multi-agent dev workflow, not just chat-with-AI.
+- **Solo founder, multi-agent dev workflow.** Each shipped product is built with **6–8 parallel Claude Code agents** — that's how Nestlyze and the four other live products got shipped without a team.
 - **Vertical builder.** Frontend, backend, infra, ML pipelines, GTM, ops — full stack so iteration is uncapped by coordination.
 - **Home AI lab.** Single 5090 workstation runs SkyReels-V2, CosyVoice, Whisper, and the GPU broker that keeps them coexisting.
-- **Bilingual distribution.** US-built AI quality, Chinese-platform distribution — and vice versa. Bicultural EN/ZH native.
-- **Mission over monetization.** Pursue revenue only if it doesn't compromise users. Stay is built on this.
+- **Bilingual distribution.** US-built AI quality, Chinese-platform reach — and vice versa.
+- **Mission over monetization.** Pursue revenue only if it doesn't compromise users.
 
 ### Tech
 
