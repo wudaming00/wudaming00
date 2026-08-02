@@ -1,73 +1,45 @@
 <h1 align="center">Daming Wu · 吴达明</h1>
 <p align="center">
-  <b>Founder, <a href="https://nestlyze.com">Nestlyze</a> — Home Search That Knows You</b><br/>
-  US-based · Bilingual (EN/ZH) · Shipping AI products end-to-end
+  <b>Founder-engineer building production AI products and GPU systems</b><br/>
+  San Jose · Bilingual (EN/ZH) · Product surface to compute control plane
 </p>
 <p align="center">
-  <a href="mailto:daming.wu@mycartek.com">daming.wu@mycartek.com</a>
+  <a href="https://damingwu.com">damingwu.com</a> ·
+  <a href="mailto:damingwu2026@gmail.com">damingwu2026@gmail.com</a>
 </p>
 
 ---
 
-### Currently building
+### Systems I'm building
 
-<table>
-<tr>
-<td width="100%" valign="top">
-
-#### <a href="https://nestlyze.com">Nestlyze — Home Search That Knows You</a>
-
-Personalized AI-powered home search. Built end-to-end as a solo founder using a 6-agent Claude Code workflow.
-
-<sub><b>Live:</b> <a href="https://nestlyze.com">nestlyze.com</a> · <b>Stack:</b> React · FastAPI · Claude · Render</sub>
-
-</td>
-</tr>
-</table>
-
----
-
-### Other things I've shipped this year
-
-| Product | What it does | Stack |
+| System | What is under the hood | Evidence |
 |---|---|---|
-| **[Stay](https://thestay.app)** | An AI for the moments you can't be alone. Free, private, public-good mental health companion. | Next.js · Claude |
-| **[知几 / Mystic Lens](https://lingxi.onrender.com)** | Consumer AI ritual app. Includes camera-based gesture divination (`/ritual`). | React · FastAPI · Claude |
-| **Wuxia drama generator** | Novel → animated short-drama video pipeline. Local SkyReels-V2 + CosyVoice on a single 5090. | Python · CUDA |
-| **YouTube → Chinese-platform repurposer** | 18-channel matrix with daily auto-pipeline: dub, translate, multi-account upload (08/14/20 + 09 Telegram report). | Python · systemd |
+| **[Collie](https://collie.run)** | Local-first coding agent across terminal, desktop, browser and iOS. Python · Swift · MCP. | Matched a comparable open agent on SWE-bench Verified with **5.3× fewer tokens**, metered at the HTTP boundary. |
+| **GPU resource broker** | Priority, preemption, per-client VRAM quotas, gaming-mode yield, Prometheus telemetry and crash-recoverable state. Python · NVML/CUDA · SQLite. | **122 tests** across scheduling, recovery and API behavior. |
+| **Heterogeneous GPU control plane** | Authenticated worker heartbeats, capability/VRAM-aware placement, priority queues, lease-based claims and lifecycle events. Cloudflare Workers · D1. | Register → enqueue → claim → complete path validated end to end. |
+| **[VocalCode](https://vocalcode.app)** | Local speech-to-text at the OS caret with signed native binaries and an end-to-end checkout/license path. Rust · Whisper · Stripe. | Shipping at 0.4.9. |
+| **[Nestlyze](https://nestlyze.com)** | Six domain agents fuse 60+ public sources behind transparent home valuation and risk signals. FastAPI · PostGIS · pgvector · React. | Live product; leakage-safe temporal model evaluation. |
+
+### Other shipped systems
+
+- **[Stay](https://thestay.app)** — crisis-aware, private mental-health AI whose safety rules are executable CI tests. `Next.js` · `Claude`
+- **Video localization pipeline** — Whisper → LLM → resilient TTS cascade → FFmpeg → upload; 1,321 videos across 23 accounts. `Python` · `CUDA` · `systemd`
+- **Cartek** — auto marketplace I co-founded and led technically for seven years; six engineers, 5M+ daily reads at 99.9% uptime. `Laravel` · `AWS` · `Stripe Connect`
 
 ### Open source
 
-- **[claude-voice](https://github.com/wudaming00/claude-voice)** — Push-to-talk voice interface for Claude Code. Hold the phone button, speak, hear replies — runs on your Max subscription. PWA, hands-free coding while driving. <sub>`FastAPI` · `Whisper` · `edge-tts` · `PWA`</sub>
-- **[gpubroker](https://github.com/wudaming00/gpubroker)** — Lightweight GPU resource broker for multi-project ML workloads on a single host. HTTP API + Python client + MCP server so AI agents can reserve VRAM autonomously. <sub>`FastAPI` · `CUDA` · `MCP`</sub>
+- **[gpubroker](https://github.com/wudaming00/gpubroker)** — GPU resource broker with HTTP, Python and MCP interfaces.
+- **[claude-voice](https://github.com/wudaming00/claude-voice)** — push-to-talk voice interface for Claude Code.
+- **[stay](https://github.com/wudaming00/stay)** — private, public-good mental-health companion.
+- **[nestlyze-mcp](https://github.com/wudaming00/nestlyze-mcp)** — real-estate search and due diligence from Claude Desktop or Claude Code.
 
 ### How I build
 
-- **Solo founder, multi-agent dev workflow.** Each shipped product is built with **6–8 parallel Claude Code agents** — that's how Nestlyze and the four other live products got shipped without a team.
-- **Vertical builder.** Frontend, backend, infra, ML pipelines, GTM, ops — full stack so iteration is uncapped by coordination.
-- **Home AI lab.** Single 5090 workstation runs SkyReels-V2, CosyVoice, Whisper, and the GPU broker that keeps them coexisting.
-- **Bilingual distribution.** US-built AI quality, Chinese-platform reach — and vice versa.
-- **Mission over monetization.** Pursue revenue only if it doesn't compromise users.
+- **Across the stack.** Interfaces, backend services, distributed control planes, ML pipelines and operations.
+- **Evidence first.** Benchmarks are metered at system boundaries; safety policies run in CI; schedulers are tested through failure and recovery.
+- **Hardware-aware.** A home lab spanning RTX 5090, 3080 and 1080 hardware is the test bed for resource management, observability and heterogeneous placement.
+- **Founder ownership.** I have taken products from blank repository through customer-facing operation, payments and production support.
 
-### Tech
+### Core tools
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MCP-1f6feb?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white"/>
-</p>
-
-### GitHub
-
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=wudaming00&show_icons=true&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs?username=wudaming00&layout=compact&hide_border=true&langs_count=8"/>
-</p>
+`Python` · `TypeScript` · `Rust` · `FastAPI` · `React` · `CUDA/NVML` · `PyTorch` · `SQLite/Postgres` · `Cloudflare Workers/D1` · `AWS` · `Prometheus` · `MCP`
