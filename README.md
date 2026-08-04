@@ -8,30 +8,39 @@
   <a href="mailto:damingwu2026@gmail.com">damingwu2026@gmail.com</a>
 </p>
 
+<p align="center">
+  <b>5.3×</b> fewer tokens · <b>122</b> tests · <b>1,321</b> videos unattended ·
+  <b>60+</b> data sources · <b>5M+</b> daily reads
+</p>
+
 ---
 
-### Systems I'm building
+### Systems
 
-| System | What is under the hood | Evidence |
-|---|---|---|
-| **[Collie](https://collie.run)** | Local-first coding agent across terminal, desktop, browser and iOS. Python · Swift · MCP. | Matched a comparable open agent on SWE-bench Verified with **5.3× fewer tokens**, metered at the HTTP boundary. |
-| **GPU resource broker** | Priority, preemption, per-client VRAM quotas, gaming-mode yield, Prometheus telemetry and crash-recoverable state. Python · NVML/CUDA · SQLite. | **122 tests** across scheduling, recovery and API behavior. |
-| **Heterogeneous GPU control plane** | Authenticated worker heartbeats, capability/VRAM-aware placement, priority queues, lease-based claims and lifecycle events. Cloudflare Workers · D1. | Register → enqueue → claim → complete path validated end to end. |
-| **[VocalCode](https://vocalcode.app)** | Local speech-to-text at the OS caret with signed native binaries and an end-to-end checkout/license path. Rust · Whisper · Stripe. | Shipping at 0.4.9. |
-| **[Nestlyze](https://nestlyze.com)** | Six domain agents fuse 60+ public sources behind transparent home valuation and risk signals. FastAPI · PostGIS · pgvector · React. | Live product; leakage-safe temporal model evaluation. |
-
-### Other shipped systems
-
-- **[Stay](https://thestay.app)** — crisis-aware, private mental-health AI whose safety rules are executable CI tests. `Next.js` · `Claude`
-- **Video localization pipeline** — Whisper → LLM → resilient TTS cascade → FFmpeg → upload; 1,321 videos across 23 accounts. `Python` · `CUDA` · `systemd`
-- **Cartek** — auto marketplace I co-founded and led technically for seven years; six engineers, 5M+ daily reads at 99.9% uptime. `Laravel` · `AWS` · `Stripe Connect`
+| | System | What is under the hood | Evidence |
+|---|---|---|---|
+| 01 | **[Collie](https://collie.run)** | A coding agent that lives on your computer — and can actually run it. Terminal, desktop, browser and iOS. `Python` · `Swift` · `MCP` | Matched a comparable open agent on SWE-bench Verified using **5.3× fewer tokens** — ~110K against ~588K per instance, metered at the HTTP boundary by a proxy I wrote. |
+| 02 | **[VocalCode](https://vocalcode.app)** | Dictation for developers. Hold a key anywhere in the OS, speak, and the text arrives at your caret; the speech model runs locally. `Rust` · `Whisper` · `Stripe` | Sold and **shipping at 0.4.9**, with the whole Stripe → Cloudflare Worker → Keygen path wired end to end. |
+| 03 | **[Nestlyze](https://nestlyze.com)** | An AI buyer's agent for US homebuyers — a two-minute chat, then 24 matched homes with transparent valuations. `FastAPI` · `PostGIS` · `pgvector` · `React` | Six domain agents fuse **60+ public sources**; gradient-boosted valuation on a leakage-safe temporal split, served in ~10 ms. |
+| 04 | **[Stay](https://thestay.app)** | Open-source, crisis-aware mental-health AI. 988 and Crisis Text Line escalation, conversations encrypted on the device. `Next.js` · `Claude` | Every safety rule is bound to a behavioral test in CI — **the policy runs**, it is not a document. |
+| 05 | **dota-rl** | A Dota 2 bot trained offline from high-MMR human replays — behavioral cloning into offline RL, the AlphaStar-Unplugged pattern. `PyTorch` | **1M+ replay frames**. The live engine validates only; sanctioned Lua Bot API throughout — no injection, no memory reading. |
+| 06 | **Video pipeline** | Whisper → LLM → a TTS cascade that degrades through three engines instead of failing a batch → FFmpeg → upload. `Python` · `CUDA` · `systemd` | **1,321 videos** published unattended across 23 accounts, VRAM-coordinated against concurrent GPU work. |
+| 07 | **Cartek** | The auto marketplace I co-founded in 2018 and ran engineering for until 2025 — marketplace, ML, payments and infrastructure from zero. `Laravel` · `AWS` · `Stripe Connect` | Six engineers, **5M+ read requests a day at 99.9% uptime**, on a double-entry ledger with Stripe Connect as merchant of record. |
+| 08 | **GPU systems lab** | A local resource broker and a cloud control plane for heterogeneous GPUs — priority, preemption, per-client VRAM quotas, gaming-mode yield, capability-aware placement and lease-based claims. `Python` · `NVML/CUDA` · `Cloudflare Workers` · `D1` | **122 tests** across scheduling, recovery and API behavior; register → enqueue → claim → complete validated end to end. |
 
 ### Open source
 
+- **[colliehq/collie](https://github.com/colliehq/collie)** — the agent above. Local-first, cross-platform, one-click Windows installer.
 - **[gpubroker](https://github.com/wudaming00/gpubroker)** — GPU resource broker with HTTP, Python and MCP interfaces.
 - **[claude-voice](https://github.com/wudaming00/claude-voice)** — push-to-talk voice interface for Claude Code.
 - **[stay](https://github.com/wudaming00/stay)** — private, public-good mental-health companion.
 - **[nestlyze-mcp](https://github.com/wudaming00/nestlyze-mcp)** — real-estate search and due diligence from Claude Desktop or Claude Code.
+
+### Also
+
+- **Rapport** — local dual-channel session transcription for therapists; microphone and system loopback separated, offline, signed. `Rust`
+- **Collie for iOS** — a SwiftUI client that tails and drives agent runs from a phone.
+- **Doppel** — pronunciation training where the native reference is your own cloned voice saying your own sentence.
 
 ### How I build
 
